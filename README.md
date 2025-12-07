@@ -1,7 +1,3 @@
-Here is a **clean, concise, professional, portfolio-ready README** with an organised screenshots section already formatted and ready to paste directly into GitHub.
-
----
-
 # 🚀 Visitor Counter App — Flask + Redis + Docker Compose
 
 A fully containerised web application that tracks visitor counts using a Flask backend and a Redis datastore.

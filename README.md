@@ -1,4 +1,4 @@
-# 🚀 Visitor Counter App — Flask + Redis + Docker Compose
+# 🚀 Visitor Counter App - Flask + Redis + Docker Compose
 
 A fully containerised web application that tracks visitor counts using a Flask backend and a Redis datastore.
 Built using a learn-by-doing DevOps approach, following real debugging, containerisation, and orchestration workflows.

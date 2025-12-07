@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visitor Counter</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #5b2be0, #2b8ee0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+      }
+      .card {
+        text-align: center;
+        padding: 40px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+      }
+      .count {
+        font-size: 48px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Visitor Counter</h1>
+      <div class="count">{{ count }}</div>
+    </div>
+  </body>
+</html>
+
+<!-- Gives us a clean UI -->

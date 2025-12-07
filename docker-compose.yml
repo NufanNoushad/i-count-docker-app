@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    container_name: i-count-web
+    ports:
+      - "5000:5000"
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7-alpine
+    container_name: i-count-redis
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:
